@@ -1,0 +1,24 @@
+# ignore regular stuff
+.DS_Store
+
+# ignore everything
+/*
+
+# but not this file and wp-content directory
+!.gitignore
+!wp-content/
+
+# ignore everyhing in the directory
+wp-content/*
+
+# but not the themes and plugins
+!wp-content/themes/
+!wp-content/plugins/
+
+# ignore all the themes
+wp-content/themes/*
+wp-content/plugins/*
+
+# but not our own themes and plugins
+# Example:
+!wp-content/themes/my_theme
